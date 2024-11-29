@@ -1,0 +1,10 @@
+.connect-wallet-btn-main {
+  background-color: #181937; 
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  margin-left: 1rem;
+}
