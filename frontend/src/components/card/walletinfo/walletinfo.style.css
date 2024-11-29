@@ -3,7 +3,7 @@
   background: rgb(47,20,92);
   background: linear-gradient(300deg, #624c87, #32256e);
   padding: 2rem;
-  min-width: 40vw;
+  min-width: 25vw;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
