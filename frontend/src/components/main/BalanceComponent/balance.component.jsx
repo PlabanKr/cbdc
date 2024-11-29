@@ -1,4 +1,5 @@
 import TotalPortfolioValue from "../../card/total-portfolio-value/total-portfolio-value.component";
+import "./balance.component.style.css";
 
 const BalanceComponent = () => {
   return <div className="balance-component-main">
