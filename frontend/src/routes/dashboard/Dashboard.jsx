@@ -16,9 +16,7 @@ const Dashboard = () => {
           {/* <button className="dashboard-topbar-logout-button"><FaPowerOff /></button> */}
           <LogoutBtn />
         </div>
-        <div>
-          <DashboardComponent />        
-        </div>
+        <DashboardComponent />        
       </div>
     </div>
   );
