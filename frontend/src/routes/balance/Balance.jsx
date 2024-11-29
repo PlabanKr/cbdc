@@ -1,5 +1,7 @@
 import Sidebar from "../../components/sidebar/sidebar.component";
-import { FaPowerOff } from "react-icons/fa6";
+import "./balance.css";
+import ConnectWalletBtn from "../../components/button/connect-wallet-btn/connect.wallet.btn.component";
+import LogoutBtn from "../../components/button/logout-btn/logout.btn.component";
 
 const Balance = () => {
   return (
@@ -7,12 +9,14 @@ const Balance = () => {
       <Sidebar />
       <div className="balance-container-main">
         <div className="dashboard-topbar">
-          <button className="dashboard-topbar-connect-wallet">
+          {/* <button className="dashboard-topbar-connect-wallet">
             Connect Wallet
-          </button>
-          <button className="dashboard-topbar-logout-button">
+          </button> */}
+          <ConnectWalletBtn />
+          {/* <button className="dashboard-topbar-logout-button">
             <FaPowerOff />
-          </button>
+          </button> */}
+          <LogoutBtn />
         </div>
         <div>
           
