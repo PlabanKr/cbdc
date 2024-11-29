@@ -1,5 +1,6 @@
 .sidebar {
-  background-image: linear-gradient(45deg, rgba(160, 37, 148, 0.85), rgba(47, 20, 92, 0.98)),url("/coin-bg.jpg");
+  /* background-image: linear-gradient(45deg, rgba(160, 37, 148, 0.85), rgba(47, 20, 92, 0.98)),url("/coin-bg.jpg"); */
+  background-color: #181937;
   background-size: cover;
   color: white;
   /* max-width: 20%; */

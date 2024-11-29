@@ -3,6 +3,7 @@
 */
 
 .dashboard-container {
+  background-color: #222244;
   display: grid;
   grid-template-columns: 2fr 10fr;
   /* gap: ; */
