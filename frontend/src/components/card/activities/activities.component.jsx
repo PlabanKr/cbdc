@@ -9,19 +9,19 @@ const ActivitiesCard = () => {
           <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
         <p className="activities-card-activity">
-          <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
+          <span>Akash sent $150.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
         <p className="activities-card-activity">
-          <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
+          <span>Paid $50 to Airtel Ltd.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
         <p className="activities-card-activity">
-          <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
+          <span>Paid $220 to Southern Thali.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
         <p className="activities-card-activity">
-          <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
+          <span>Abhishek sent $70.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
         <p className="activities-card-activity">
-          <span>Emaily sent $300.</span><span className="activities-card-activity-date">17/09/2024</span>
+          <span>Paid $45 to Muffin Shop.</span><span className="activities-card-activity-date">17/09/2024</span>
         </p>
       </div>
     </div>
