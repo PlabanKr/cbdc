@@ -15,6 +15,8 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid white;
+  font-size: 0.9rem;
+  padding: 0.12rem 0rem;
 }
 
 .activities-card-activity-date {
