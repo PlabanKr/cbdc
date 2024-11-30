@@ -1,0 +1,22 @@
+.bank-ac-sidebar-main {
+  background: linear-gradient(to right, #1B366F, #43588D);
+  width: 25vh;
+  height: 27vh;
+  margin-top: 4rem;
+  padding: 1.4rem 0.6rem;
+  border-radius: 15px;
+}
+
+.bank-ac-sidebar-txt-lg {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.txt-found {
+  margin: 1.4rem 0rem 1.2rem 0rem;
+}
+
+.bank-ac-sidebar-txt-sm {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}

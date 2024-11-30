@@ -4,6 +4,7 @@ import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { TbNotes } from "react-icons/tb";
 import "./sidebar.style.css";
+import BankAcSidebar from "../card/bank-ac-sidebar/bank.ac.sidebar.component";
 
 const Sidebar = () => {
   return (
@@ -34,6 +35,7 @@ const Sidebar = () => {
           <MdAccountBalanceWallet /> Balance
         </li>
       </ul>
+      <BankAcSidebar />
     </nav>
   )
 }
