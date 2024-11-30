@@ -1,3 +1,10 @@
 .balance-component-main {
   padding: 0rem 2rem 2rem 2rem;
 }
+
+.balance-component-info-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
