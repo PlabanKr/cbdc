@@ -2,6 +2,7 @@ import Sidebar from "../../components/sidebar/sidebar.component";
 import "./balance.css";
 import ConnectWalletBtn from "../../components/button/connect-wallet-btn/connect.wallet.btn.component";
 import LogoutBtn from "../../components/button/logout-btn/logout.btn.component";
+import BalanceComponent from "../../components/main/BalanceComponent/balance.component";
 
 const Balance = () => {
   return (
@@ -18,9 +19,7 @@ const Balance = () => {
           </button> */}
           <LogoutBtn />
         </div>
-        <div>
-          
-        </div>
+        <BalanceComponent />
       </div>
     </div>
   );
