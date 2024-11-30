@@ -3,6 +3,7 @@ import { CiGrid42 } from "react-icons/ci";
 import { MdAccountBalanceWallet } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { TbNotes } from "react-icons/tb";
+import { Link } from "react-router-dom";
 import "./sidebar.style.css";
 import BankAcSidebar from "../card/bank-ac-sidebar/bank.ac.sidebar.component";
 
@@ -12,7 +13,9 @@ const Sidebar = () => {
       <h2 className="sidebar-title">CBDC</h2>
       <ul className="sidebar-links">
         <li className="sidebar-section-options">
-          <CiGrid42 /> Dashboard
+          <Link to="/dashboard" className="sidebar-section-options-anchor">
+            <CiGrid42 /> Dashboard
+          </Link>
         </li>
         {/* Transfer Money Section */}
         <li className="sidebar-section-title">
@@ -32,7 +35,9 @@ const Sidebar = () => {
           <TbNotes /> History
         </li>
         <li className="sidebar-section-options">
-          <MdAccountBalanceWallet /> Balance
+          <Link to="/dashboard/balance" className="sidebar-section-options-anchor">
+            <MdAccountBalanceWallet /> Balance
+          </Link>
         </li>
       </ul>
       <BankAcSidebar />
